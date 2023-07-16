@@ -68,10 +68,14 @@ prob = MIQSback.get_prob_history(system, target, sol, 0, rho_i)
 MIQSback.plot_tree(fidelity, prob, iter)
 ```
 
-The loss history from optimization
+The loss history from optimization:
 
 ![](figs/loss.png)
 
-and the gates in the Weyl chamber
+The binary tree representing the evolution of the state after each measurement:
+
+![](figs/tree.png)
+
+The representation of gates in the Weyl chamber:
 
 ![](figs/weyl.png)
